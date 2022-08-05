@@ -1,0 +1,44 @@
+
+
+INSERT INTO customer VALUES ('678911','Linnah','Mahlangu','mahlangulinah8@gmail.com','mahlah','Ln063583!');
+INSERT INTO customer VALUES ('678912','Maria','Mnguni','mngunimaria@gmail.com','mnguna','Mn078394!');
+INSERT INTO customer VALUES ('678913','OUPA','Skosana','skosanaoupa@gmail.com','skosi','So071881!);
+INSERT INTO customer VALUES ('678914','JACKIE','Ntuli','ntulijackie@gmail.com','jacky','Nj076299!');
+INSERT INTO customer VALUES ('678915','LAWRENCE','Msiza','msizalawrence@gmail.com','rence','Ml078321');
+
+INSERT INTO appointment VALUES ('7','H105','678911','08:00:00','2022-06-16','P');
+INSERT INTO appointment VALUES ('8','H105','678911','10:00:00','2022-06-16','M');
+INSERT INTO appointment VALUES ('9','H105','678913','12:00:00','2022-06-16','V');
+INSERT INTO appointment VALUES ('10','H105','678914','10:00:00','2022-06-18','D');
+INSERT INTO appointment VALUES ('11','H105','678915','08:00:00','2022-06-19','E');
+
+
+INSERT INTO service VALUES ('H101','Chiskop',200);
+INSERT INTO service VALUES ('H102','Fade',250);
+INSERT INTO service VALUES ('H105','Brush',300);
+INSERT INTO service VALUES ('H104','Ladies Fade',380);
+INSERT INTO service VALUES ('H103','S-Curl',180);
+
+INSERT INTO serviceBeautician VALUES ('H101','50603');
+INSERT INTO serviceBeautician VALUES ('H102','50606');
+INSERT INTO serviceBeautician VALUES ('H105','50602');
+INSERT INTO serviceBeautician VALUES ('H104','50604');
+INSERT INTO serviceBeautician VALUES ('H103','50603');
+
+
+INSERT INTO beautician VALUES ('50603','Petronella');
+INSERT INTO beautician VALUES ('50606','Gladys');
+INSERT INTO beautician VALUES ('50602','Frank');
+INSERT INTO beautician VALUES ('50604','John');
+INSERT INTO beautician VALUES ('50603','Prayer');
+
+
+
+
+
+
+
+
+
+
+

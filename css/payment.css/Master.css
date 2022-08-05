@@ -1,0 +1,162 @@
+*{
+	margin: 0;
+	padding: 0;
+	front-family: Century Gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../images/2.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	
+	
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+	
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+	
+}
+
+
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+	
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+	
+}
+
+.title{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+}
+
+.title h1{
+	color: #fff;
+	font-size: 70px;
+
+}
+
+
+
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+	
+}
+
+
+
+.power{
+	text-align:center;
+	font-size: 10px;
+	padding: 15px 50px;
+	
+	
+}
+
+
+.button1{
+	position: absolute;
+	top: 55%;
+	left: 40%;
+	transform: translate(-50%,-50%);
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../images/master.png);
+	background-color: #04AA6D;
+	color: white;
+	padding: 25px;
+	font-size: 30px;
+	border: 2px solid #808080;
+	background-size: cover;
+}
+.button2{
+	position: absolute;
+	top: 55%;
+	left: 60%;
+	transform: translate(-50%,-50%);
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../images/visa.png);
+	background-color: #04AA6D;
+	color: white;
+	padding: 25px;
+	font-size: 30px;
+	border: 2px solid #808080;
+	background-size: cover;
+}
+.button3{
+	position: absolute;
+	top: 80%;
+	left: 30%;
+	transform: translate(-50%,-50%);
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../images/paypal.png);
+	background-color: #04AA6D;
+	color: white;
+	padding: 25px;
+	font-size: 30px;
+	border: 2px solid #808080;
+	background-size: cover;
+}
+.button4{
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../images/express.png);
+	background-color: #04AA6D;
+	color: white;
+	padding: 25px;
+	font-size: 30px;
+	border: 2px solid #808080;
+	background-size: cover;
+}
+.button5{
+	position: absolute;
+	top: 80%;
+	left: 70%;
+	transform: translate(-50%,-50%);
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../images/download.png);
+	background-color: #04AA6D;
+	color: white;
+	padding: 25px;
+	font-size: 30px;
+	border: 2px solid #808080;
+	background-size: cover;
+}
